@@ -69,7 +69,7 @@ sudo dnf install golang   # Fedora
 Then clone and run:
 
 ```bash
-git clone https://github.com/RobbieConceptuel/morgen.git
+git clone https://github.com/by-conceptuel/morgen.git
 cd morgen
 go build -o morgen && ./morgen
 ```

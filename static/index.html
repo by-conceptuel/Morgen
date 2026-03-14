@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morgen</title>
+<meta name="description" content="Morgen - morning dashboard">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="favicon.png">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="layout">
+  <div class="main" id="app"></div>
+  <div class="sidebar-col">
+    <div class="sidebar" id="sidebar"></div>
+    <div class="watch-fixed" id="watchFixed"></div>
+  </div>
+</div>
+<div class="modal-overlay" id="modalOverlay"><div class="modal" id="modal"></div></div>
+<div class="toast" id="toast"></div>
+<script src="shared-data.js"></script>
+<script src="config.js"></script>
+<script src="utils.js"></script>
+<script src="weather.js"></script>
+<script src="status.js"></script>
+<script src="watch.js"></script>
+<script src="modals.js"></script>
+<script src="render.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
